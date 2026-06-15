@@ -1,0 +1,23 @@
+{
+  "curated_panel": {
+    "n_genes": 92,
+    "identity_r": 0.3527386235874933,
+    "identity_p": 0.000563411128483312,
+    "identity_r2": 0.12442453657039929,
+    "fitness_r": 0.01240852758513428,
+    "fitness_p": 0.9065465555412319,
+    "fitness_r2": 0.00015397155683103837
+  },
+  "encode_general_panel": {
+    "n_genes": 20112,
+    "n_tfs": 58,
+    "identity_r": -0.012370475025667323,
+    "identity_p": 0.07937927782237905,
+    "identity_r2": 0.00015302865236065897,
+    "fitness_r": -0.007136725753094068,
+    "fitness_p": 0.3115105759851539,
+    "fitness_r2": 5.0932854474876095e-05
+  },
+  "specificity_confirmed": true,
+  "interpretation": "General TF co-occupancy (58 ENCODE H1-hESC datasets, n=20,112 genes) predicts neither pluripotency identity nor fitness. The identity signal in the curated 17-TF panel (r=+0.353, p<0.001) is specific to pluripotency circuit co-occupancy."
+}

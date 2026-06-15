@@ -1,0 +1,50 @@
+{
+  "omega": 0.00077,
+  "kappa_human": 0.0017,
+  "kappa_mouse": 0.0031,
+  "g_midpoint": 0.00040497,
+  "g_lo": 0.00036,
+  "g_hi": 0.00081,
+  "J_eff": 9.618e-05,
+  "NC_H_illustrative": 4.0,
+  "NC_M_illustrative": 7.29,
+  "NC_H_predicted_range": [
+    1.0,
+    5.0
+  ],
+  "NC_M_predicted_range": [
+    1.8,
+    9.1
+  ],
+  "NC_FIT_H": 4.72,
+  "NC_FIT_H_SE": 0.47,
+  "NC_FIT_M": 8.05,
+  "NC_FIT_M_SE": 0.47,
+  "predicted_ratio": 1.82,
+  "observed_ratio": 1.63,
+  "observed_ratio_SE": 0.22,
+  "t_max_h": 64800,
+  "gillespie_seed": 42,
+  "permutation_seed": 99,
+  "cv_seed": 42,
+  "outlier_SD_threshold": 3.5,
+  "notes": {
+    "omega": "TF dissociation rate (s^-1); Roberts et al. 2021",
+    "kappa_human": "Chromatin relaxation rate hESC (s^-1); Klemm et al. 2019",
+    "kappa_mouse": "Chromatin relaxation rate mESC (s^-1); Stadhouders et al. 2018",
+    "g_midpoint": "TF-nucleosome coupling midpoint (s^-1); from dG_coop = 0.1-0.5 kBT; Mirny 2010",
+    "g_lo": "Lower bound of g biophysical range (s^-1)",
+    "g_hi": "Upper bound of g biophysical range (s^-1)",
+    "J_eff": "Effective TF-TF coupling = g^2/kappa (s^-1)",
+    "NC_H_illustrative": "Illustrative N_c for human ESC; NOT an ab initio prediction; g constrained from same literature as predicted range",
+    "NC_M_illustrative": "Predicted N_c for mouse = kappa_mouse/kappa_human x NC_H_illustrative",
+    "NC_FIT_H": "Empirical N_c from sigmoid fit to human CRISPR screen data",
+    "NC_FIT_M": "Empirical N_c from sigmoid fit to mouse CRISPR screen data",
+    "predicted_ratio": "kappa_mouse / kappa_human; g-independent",
+    "t_max_h": "Maximum Gillespie simulation time in seconds (= 18 hours)",
+    "gillespie_seed": "NumPy random seed for Gillespie simulations",
+    "permutation_seed": "NumPy random seed for permutation test (pre-specified)",
+    "cv_seed": "NumPy random seed for cross-validation splits",
+    "outlier_SD_threshold": "Pre-specified outlier criterion: identity score > this many SD below group mean for N_gene bin"
+  }
+}
