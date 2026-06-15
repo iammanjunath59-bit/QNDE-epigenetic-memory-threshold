@@ -214,7 +214,7 @@ If you use this code, please cite:
 ```
 M. Manjunath (2026). Nucleosome Deformation Dynamics Determine a
 Quantitative Stability Threshold for Epigenetic Memory.
-Cell Systems. DOI: [PAPER DOI]
+DOI: [PAPER DOI]
 ```
 
 ---
